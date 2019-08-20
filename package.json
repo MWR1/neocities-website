@@ -1,0 +1,26 @@
+{
+  "name": "mwr1",
+  "version": "1.0.0",
+  "description": "MWR personal website up on neocities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel ./src/index.html",
+    "prod": "parcel build ./src/index.html -d prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "neocities-website"
+  },
+  "author": "MWR",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^1.12.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }, 
+
+  "devDependencies": {
+    "react-router-dom": "^5.0.1"
+  }
+}
